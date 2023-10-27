@@ -86,9 +86,9 @@
     }
   }
 
-  @media (max-width: 380px) {
+  @media (max-width: 400px) {
     .text span {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   }
 </style>

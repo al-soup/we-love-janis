@@ -11,7 +11,7 @@ export const textCollection: string[][] = [
   ["Janis", "hat", "guten", "Humor"],
   ["Janis", "haben wir", "immer gerne", "bei uns"],
   ["Janis", "bringt", "uns zum", "lachen"],
-  ["Janis", "hat eine", "sexy Frisur"],
+  ["Janis", "hat eine", "sexy", "Frisur"],
   ["Janis", "sorgt", "für gute", "Laune"],
   ["Janis", "ist ein", "Abenteurer"],
   ["Janis", "ist gute", "Gesell-", "schaft"],
@@ -21,7 +21,7 @@ export const textCollection: string[][] = [
   ["Janis", "ist ein", "heiterer", "Mensch"],
   ["Janis", "haben wir", "fest gerne"],
   ["Janis", "ist ein", "super DJ"],
-  ["Janis", "freut sich", "mit einem"],
+  ["Janis", "freut sich", "mit", "einem"],
   ["Janis", "ist ein", "Sonnenschein"],
 ];
 
