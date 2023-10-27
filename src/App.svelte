@@ -1,6 +1,6 @@
 <script lang="ts">
   import { colors, textCollection } from "./data";
-  // TODO replace favicon
+
   let color: string;
   let texts: string[];
 
@@ -40,16 +40,16 @@
 
 <style lang="scss">
   main {
-    font-family: "Archivo Black", sans-serif;
+    align-items: center;
     background-color: var(--color);
+    color: var(--color);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    font-family: "Archivo Black", sans-serif;
     height: 100svh;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
-    transition: background-color 1s ease, color 1s ease;
-    color: var(--color);
+    transition: background-color 2s ease, color 2s ease;
   }
 
   .text {
@@ -58,9 +58,9 @@
   }
 
   .text span {
-    font-size: 5rem;
-    display: inline-block;
     animation: move 3s ease-in-out 2;
+    display: inline-block;
+    font-size: 5rem;
   }
 
   @keyframes move {
