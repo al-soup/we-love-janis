@@ -9,7 +9,7 @@ export const textCollection: string[][] = [
   ["Janis", "ist für", "uns da"],
   ["Janis", "ist ein", "guter", "Hugger"],
   ["Janis", "hat", "guten", "Humor"],
-  ["Janis", "haben wir", "immer gerne", "bei uns"],
+  ["Janis", "haben wir", "immer", "gerne", "bei uns"],
   ["Janis", "bringt", "uns zum", "lachen"],
   ["Janis", "hat eine", "sexy", "Frisur"],
   ["Janis", "sorgt", "für gute", "Laune"],
@@ -22,7 +22,7 @@ export const textCollection: string[][] = [
   ["Janis", "haben wir", "fest gerne"],
   ["Janis", "ist ein", "super DJ"],
   ["Janis", "freut sich", "mit", "einem"],
-  ["Janis", "ist ein", "Sonnenschein"],
+  ["Janis", "ist ein", "Sonnen-", "schein"],
 ];
 
 export const colors: string[] = [
