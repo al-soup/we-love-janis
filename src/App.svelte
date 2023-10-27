@@ -3,6 +3,7 @@
 
   let color: string;
   let texts: string[];
+  let renderKey: number;
 
   async function infiniteLoop() {
     texts = textCollection[getRandomIndex(textCollection)];
@@ -11,6 +12,8 @@
     const longest = texts.reduce((a, b) => (a.length > b.length ? a : b));
 
     await sleep(1000 * (longest.length + 2));
+    // trigger a re-render of the animation
+    renderKey = new Date().getTime();
 
     infiniteLoop();
   }
@@ -27,7 +30,7 @@
 </script>
 
 <main style="--color: {color};">
-  {#key JSON.stringify(texts)}
+  {#key renderKey}
     {#each texts as text}
       <div class="text">
         {#each text as character}
