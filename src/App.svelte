@@ -49,7 +49,7 @@
     height: 100svh;
     height: 100vh;
     justify-content: center;
-    transition: background-color 2s ease, color 2s ease;
+    transition: background-color 1.5s ease, color 1.5s ease;
   }
 
   .text {
@@ -85,7 +85,7 @@
 
   @media (max-width: 380px) {
     .text span {
-      font-size: 3.5;
+      font-size: 3.5rem;
     }
   }
 </style>
