@@ -17,11 +17,12 @@ export const textCollection: string[][] = [
   ["Janis", "ist gute", "Gesell-", "schaft"],
   ["Janis", "bereichtet", "jede", "Diskussion"],
   ["Janis", "ist ein", "guter", "Freund"],
-  ["Janis", "versteht", "einen"],
-  ["Janis", "ist ein", "aufgestellter", "Mensch"],
+  ["Janis", "versteht", "einem"],
+  ["Janis", "ist ein", "heiterer", "Mensch"],
   ["Janis", "haben wir", "fest gerne"],
   ["Janis", "ist ein", "super DJ"],
   ["Janis", "freut sich", "mit einem"],
+  ["Janis", "ist ein", "Sonnenschein"],
 ];
 
 export const colors: string[] = [
