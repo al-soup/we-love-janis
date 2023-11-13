@@ -5,7 +5,7 @@
   let texts: string[];
   let renderKey: number;
 
-  async function infiniteLoop() {
+  async function loopInfinite() {
     texts = textCollection[getRandomIndex(textCollection)];
     color = colors[getRandomIndex(colors)];
 
@@ -15,7 +15,7 @@
     // trigger a re-render of the animation
     renderKey = new Date().getTime();
 
-    infiniteLoop();
+    loopInfinite();
   }
 
   function sleep(ms: number) {
@@ -26,7 +26,7 @@
     return Math.floor(Math.random() * array.length);
   }
 
-  infiniteLoop();
+  loopInfinite();
 </script>
 
 <main style="--color: {color};">
