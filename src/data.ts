@@ -17,7 +17,7 @@ export const textCollection: string[][] = [
   ["Janis", "ist gute", "Gesell-", "schaft"],
   ["Janis", "bereichert", "jede", "Diskussion"],
   ["Janis", "ist ein", "guter", "Freund"],
-  ["Janis", "versteht", "einem"],
+  ["Janis", "versteht", "einen"],
   ["Janis", "ist ein", "heiterer", "Mensch"],
   ["Janis", "haben wir", "fest gerne"],
   ["Janis", "ist ein", "super DJ"],
